@@ -10,31 +10,28 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .white_block {
+    --w: 800px;
     display: flex;
-    justify-content: center;
+    width: var(--w);
+    margin: 250px calc((100% - var(--w)) / 2) 0;
     background-color: rgb(255, 255, 255);
-    margin: 200px;
-    width: 100%;
-    position: relative;
 }
 .x {
     display: flex;
     position: absolute;
     margin-top: 10px;
-    margin-left: 600px;
+    margin-left: 750px;
     font-size: 35px;
     opacity: 0.5;
     margin-bottom: 0;
 }
 .left_block {
-    width: 40%;
+    width: 500px;
     float: left;
     margin: 50px;
 }
 .right_block {
     background-color: rgb(255, 255, 255);
-    width: 60%;
-    float: left;
 }
 .main_title {
     font-size: 120px;
