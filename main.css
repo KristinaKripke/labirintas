@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-body {
+.background_img {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -9,7 +9,7 @@ body {
     justify-content: center;
     font-family: 'Courier New', Courier, monospace;
 }
-main {
+.white_block {
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
@@ -17,7 +17,7 @@ main {
     width: 100%;
     position: relative;
 }
-header {
+.x {
     display: flex;
     position: absolute;
     margin-top: 10px;
@@ -26,31 +26,31 @@ header {
     opacity: 0.5;
     margin-bottom: 0;
 }
-img {
+.left_block {
     width: 40%;
     float: left;
     margin: 50px;
 }
-div {
+.right_block {
     background-color: rgb(255, 255, 255);
     width: 60%;
     float: left;
 }
-h1 {
+.main_title {
     font-size: 120px;
     margin-bottom: 5px;
     margin-top: 50px;
     color: rgb(15, 112, 1);
 }
-h4 {
+.text {
     color: rgb(15, 112, 1);
     margin-top: 5px;
 }
-p {
+.description {
     opacity: 0.7;
     margin-right: 20px;
 }
-a {
+.btn {
     color: rgb(255, 255, 255);
     background-color: rgb(15, 112, 1);
     text-decoration: none;
